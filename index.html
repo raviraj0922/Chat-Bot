@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp-like Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="chatbot-body">
+        <div class="chatbot-container">
+            <div class="chatbot-header">
+                <h2>Chatbot</h2>
+            </div>
+            <div class="chatbot-messages" id="chatMessages">
+                <!-- Chat messages will be appended here -->
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="userInput" placeholder="Choose from above..." autocomplete="off" disabled>
+                <button id="sendMessage" disabled>Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
